@@ -3,12 +3,13 @@ package main
 import (
 	"archive/zip"
 	"bufio"
-	"golang.org/x/text/encoding/unicode"
-	"golang.org/x/text/transform"
 	"io"
 	"log"
 	"os"
 	"strings"
+
+	"golang.org/x/text/encoding/unicode"
+	"golang.org/x/text/transform"
 )
 
 type imeDicEntry struct {
